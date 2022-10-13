@@ -16,12 +16,12 @@ This means that we have to hand out 3 different amounts: $1230, $450, $54
 This means that we have only 4 bills denominations: $100 - 13pcs, $50 - 100pcs, $20 - 10pcs, $10 - 1pcs
 
 ## Method returns:
-dataframe: cantains bills distribution for each amount
-dictionary: amount of used bills for each denominations 
-dictionary: amount of left bills for each denominations 
-dictionary: amount of needed bills, which are not available in stock, for each denominations 
-integer: sum, which is impossibly to hand out because of the lack of bills
-integer: sum, which is impossibly to hand out because of absence of needed denomination in input list
+dataframe: cantains bills distribution for each amount  
+dictionary: amount of used bills for each denominations   
+dictionary: amount of left bills for each denominations  
+dictionary: amount of needed bills, which are not available in stock, for each denominations  
+integer: sum, which is impossibly to hand out because of the lack of bills  
+integer: sum, which is impossibly to hand out because of absence of needed denomination in input list  
 
 ## Example:
 input <ul> bills_distribution({0:1230, 1:450, 2:54}, {100:13, 50:100, 20:10, 10:1, 5:0}) </ul>
