@@ -10,9 +10,9 @@ the method, by the way, seeks for minimal amount of bills that will be handed ou
 
 ## Descripton of method:
 Method requires 2 input dictionaries which keys and values must be integers: 
-- first contains list of amounts which we want to hand out, e.g.: {0:1230, 1:450, 2:54}.<br>
-This mean that we have to hand out 3 different amounts: $1230, $450, $54
-- second - is the amount of cash bills we have in stock, e.g.: {100:13, 50:100, 20:10, 10:1, 5:0}<br>
+- first contains list of amounts which we want to hand out, e.g.: {0:1230, 1:450, 2:54}.  
+This means that we have to hand out 3 different amounts: $1230, $450, $54
+- second - is the amount of cash bills we have in stock, e.g.: {100:13, 50:100, 20:10, 10:1, 5:0}. 
 This means that we have only 4 bills denominations: $100 - 13pcs, $50 - 100pcs, $20 - 10pcs, $10 - 1pcs
 
 ## Method returns:
