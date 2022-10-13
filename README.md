@@ -25,17 +25,17 @@ integer: sum, which is impossibly to hand out because of the lack of bills
 integer: sum, which is impossibly to hand out because of absence of needed denomination in input list
 
 ## Example:
-<ul> bills_distribution({0:1230, 1:450, 2:54}, {100:13, 50:100, 20:10, 10:1, 5:0})</ul>
+<ul> <li> bills_distribution({0:1230, 1:450, 2:54}, {100:13, 50:100, 20:10, 10:1, 5:0}) </li> </ul>
 
 <ul>
-(    sum  sum_rest  100  50  20  10  5
- 0                                    
- 0  1230         0   12   0   1   1  0
- 1   450         0    1   7   0   0  0
- 2    54         4    0   1   0   0  0,
- {5: 0, 10: 1, 20: 1, 50: 8, 100: 13},
- {5: 0, 10: 0, 20: 9, 50: 92, 100: 0},
- {100: 0, 50: 0, 20: 0, 10: 0, 5: 0},
- 0,
- 4)
+(    sum  sum_rest  100  50  20  10  5<br>
+ 0                                    <br>
+ 0  1230         0   12   0   1   1  0<br>
+ 1   450         0    1   7   0   0  0<br>
+ 2    54         4    0   1   0   0  0,<br>
+ {5: 0, 10: 1, 20: 1, 50: 8, 100: 13},<br>
+ {5: 0, 10: 0, 20: 9, 50: 92, 100: 0},<br>
+ {100: 0, 50: 0, 20: 0, 10: 0, 5: 0},<br>
+ 0,<br>
+ 4)<br>
  </ul>
