@@ -1,6 +1,6 @@
 # cash_bills_distribution
-This method allows you to distribute available cash bills between array of amounts you need to hand out
-the method, by the way, seeks for minimal amount of bills that will be handed out per each payment
+This method allows you to distribute available cash bills between amounts of array, you need to hand out  
+The method, by the way, seeks for minimal amount of bills that will be handed out, per each payment
 
 ## Additional Python Libraries Required:
 ### Pandas
