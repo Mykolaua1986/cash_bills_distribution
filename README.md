@@ -5,7 +5,7 @@ the method, by the way, seeks for minimal amount of bills that will be handed ou
 ## Additional Python Libraries Required:
 
 <ul>
- <li>Pandas</li>
+### Pandas
        pip install pandas
 </ul>
 
