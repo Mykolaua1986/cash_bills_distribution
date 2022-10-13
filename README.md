@@ -1,5 +1,5 @@
 # cash_bills_distribution
-This method allows you to distribute available cash bills between amounts of array, you need to hand out  
+This method allows you to distribute available cash bills between payments, you need to hand out  
 The method, by the way, seeks for minimal amount of bills, that will be handed out, per each payment
 
 ## Additional Python Libraries Required:
@@ -16,7 +16,7 @@ This means that we have to hand out 3 different amounts: $1230, $450, $54
 This means that we have only 4 bills denominations: $100 - 13pcs, $50 - 100pcs, $20 - 10pcs, $10 - 1pcs
 
 ## Method returns:
-dataframe: cantains bills distribution for each amount  
+dataframe: contains bills distribution for each amount  
 dictionary: amount of used bills for each denominations   
 dictionary: amount of left bills for each denominations  
 dictionary: amount of needed bills, which are not available in stock, for each of denominations  
@@ -36,14 +36,14 @@ index|sum|sum_rest|100|50|20|10|5
 1|450|0|1|7|0|0|0  
 2|54|4|0|1|0|0|0  
 
-##### amount of used bills for each denominations
+##### amount of used bills for each of denominations
  {5: 0, 10: 1, 20: 1, 50: 8, 100: 13}
-##### amount of left bills for each denominations
+##### amount of left bills for each of denominations
  {5: 0, 10: 0, 20: 9, 50: 92, 100: 0}
 ##### amount of needed bills, which are not available in stock, for each of denominations
  {100: 0, 50: 0, 20: 0, 10: 0, 5: 0}
-##### sum, which is impossibly to hand out because of the lack of bills
+##### sum, which is impossibly to hand out, because of the lack of bills
  0
-##### sum, which is impossibly to hand out because of absence of needed denomination in input list
+##### sum, which is impossibly to hand out, because of absence of needed denomination in input list
  4
  </ul>
