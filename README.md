@@ -3,6 +3,9 @@ This method allows you to distribute available cash bills between array of amoun
 the method, by the way, seeks for minimal amount of bills that will be handed out per each payment
 
 ##Additional Python Libraries Required:
+
+
+##Additional Python Libraries Required:
 <ul>
  <li>Pandas</li>
   
