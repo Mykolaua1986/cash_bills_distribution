@@ -27,6 +27,7 @@ integer: sum, which is impossibly to hand out because of absence of needed denom
 input <ul> bills_distribution({0:1230, 1:450, 2:54}, {100:13, 50:100, 20:10, 10:1, 5:0}) </ul>
 
 output <ul>
+### tuple, which contains:
 ##### df
 index|sum|sum_rest|100|50|20|10|5
 ---|---|---|---|---|---|---|---
