@@ -19,7 +19,7 @@ This means that we have only 4 bills denominations: $100 - 13pcs, $50 - 100pcs, 
 dataframe: cantains bills distribution for each amount  
 dictionary: amount of used bills for each denominations   
 dictionary: amount of left bills for each denominations  
-dictionary: amount of needed bills, which are not available in stock, for each denominations  
+dictionary: amount of needed bills, which are not available in stock, for each of denominations  
 integer: sum, which is impossibly to hand out because of the lack of bills  
 integer: sum, which is impossibly to hand out because of absence of needed denomination in input list  
 
@@ -27,16 +27,22 @@ integer: sum, which is impossibly to hand out because of absence of needed denom
 input <ul> bills_distribution({0:1230, 1:450, 2:54}, {100:13, 50:100, 20:10, 10:1, 5:0}) </ul>
 
 output <ul>
-(
+##### df
 index|sum|sum_rest|100|50|20|10|5
 ---|---|---|---|---|---|---|---
 0|||||||
 0|1230|0|12|0|1|1|0
 1|450|0|1|7|0|0|0  
-2|54|4|0|1|0|0|0,  
- {5: 0, 10: 1, 20: 1, 50: 8, 100: 13},  
- {5: 0, 10: 0, 20: 9, 50: 92, 100: 0},  
- {100: 0, 50: 0, 20: 0, 10: 0, 5: 0},  
- 0,  
- 4)  
+2|54|4|0|1|0|0|0  
+
+##### amount of used bills for each denominations
+ {5: 0, 10: 1, 20: 1, 50: 8, 100: 13}
+##### amount of left bills for each denominations
+ {5: 0, 10: 0, 20: 9, 50: 92, 100: 0}
+##### amount of needed bills, which are not available in stock, for each of denominations
+ {100: 0, 50: 0, 20: 0, 10: 0, 5: 0}
+##### sum, which is impossibly to hand out because of the lack of bills
+ 0
+##### sum, which is impossibly to hand out because of absence of needed denomination in input list
+ 4
  </ul>
