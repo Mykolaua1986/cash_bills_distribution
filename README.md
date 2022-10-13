@@ -1,6 +1,6 @@
 # cash_bills_distribution
 This method allows you to distribute available cash bills between amounts of array, you need to hand out  
-The method, by the way, seeks for minimal amount of bills that will be handed out, per each payment
+The method, by the way, seeks for minimal amount of bills, that will be handed out, per each payment
 
 ## Additional Python Libraries Required:
 ### Pandas
@@ -9,7 +9,7 @@ The method, by the way, seeks for minimal amount of bills that will be handed ou
 </ul>
 
 ## Descripton of method:
-Method requires 2 input dictionaries which keys and values must be integers: 
+Method requires 2 input dictionaries, which keys and values must be integers: 
 - first contains list of amounts which we want to hand out, e.g.: {0:1230, 1:450, 2:54}.  
 This means that we have to hand out 3 different amounts: $1230, $450, $54
 - second - is the amount of cash bills we have in stock, e.g.: {100:13, 50:100, 20:10, 10:1, 5:0}.  
