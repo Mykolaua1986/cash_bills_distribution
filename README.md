@@ -12,7 +12,7 @@ the method, by the way, seeks for minimal amount of bills that will be handed ou
 Method requires 2 input dictionaries which keys and values must be integers: 
 - first contains list of amounts which we want to hand out, e.g.: {0:1230, 1:450, 2:54}.  
 This means that we have to hand out 3 different amounts: $1230, $450, $54
-- second - is the amount of cash bills we have in stock, e.g.: {100:13, 50:100, 20:10, 10:1, 5:0}. 
+- second - is the amount of cash bills we have in stock, e.g.: {100:13, 50:100, 20:10, 10:1, 5:0}.  
 This means that we have only 4 bills denominations: $100 - 13pcs, $50 - 100pcs, $20 - 10pcs, $10 - 1pcs
 
 ## Method returns:
@@ -27,14 +27,14 @@ integer: sum, which is impossibly to hand out because of absence of needed denom
 input <ul> bills_distribution({0:1230, 1:450, 2:54}, {100:13, 50:100, 20:10, 10:1, 5:0}) </ul>
 
 output <ul>
-(    sum  sum_rest  100  50  20  10  5<br>
- 0                                    <br>
- 0  1230         0   12   0   1   1  0<br>
- 1   450         0    1   7   0   0  0<br>
- 2    54         4    0   1   0   0  0,<br>
- {5: 0, 10: 1, 20: 1, 50: 8, 100: 13},<br>
- {5: 0, 10: 0, 20: 9, 50: 92, 100: 0},<br>
- {100: 0, 50: 0, 20: 0, 10: 0, 5: 0},<br>
- 0,<br>
- 4)<br>
+(    sum  sum_rest  100  50  20  10  5  
+ 0                                      
+ 0  1230         0   12   0   1   1  0  
+ 1   450         0    1   7   0   0  0  
+ 2    54         4    0   1   0   0  0,  
+ {5: 0, 10: 1, 20: 1, 50: 8, 100: 13},  
+ {5: 0, 10: 0, 20: 9, 50: 92, 100: 0},  
+ {100: 0, 50: 0, 20: 0, 10: 0, 5: 0},  
+ 0,  
+ 4)  
  </ul>
