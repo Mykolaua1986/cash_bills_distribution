@@ -24,9 +24,9 @@ integer: sum, which is impossibly to hand out because of the lack of bills
 integer: sum, which is impossibly to hand out because of absence of needed denomination in input list
 
 ## Example:
-<ul> bills_distribution({0:1230, 1:450, 2:54}, {100:13, 50:100, 20:10, 10:1, 5:0}) </ul>
+input <ul> bills_distribution({0:1230, 1:450, 2:54}, {100:13, 50:100, 20:10, 10:1, 5:0}) </ul>
 
-<ul>
+output <ul>
 (    sum  sum_rest  100  50  20  10  5<br>
  0                                    <br>
  0  1230         0   12   0   1   1  0<br>
